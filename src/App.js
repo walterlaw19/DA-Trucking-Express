@@ -1,13 +1,14 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import truckPic from './straight-job-truck.jpeg';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={truckPic}  />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Providing best delivery service 
         </p>
         <a
           className="App-link"
@@ -15,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          DA Trucking Express
         </a>
       </header>
     </div>
